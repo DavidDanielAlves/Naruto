@@ -24,7 +24,7 @@ function removerSelecao() {
 
 function alterarPersongem(idPersonagem) {
     const imagemPersonagem = document.querySelector('.imagem-principal');
-    imagemPersonagem.src = `../imgs/${idPersonagem}-inteiro.png`;
+    imagemPersonagem.src = `../imgs/${idPersonagem}.png`;
 }
 
 

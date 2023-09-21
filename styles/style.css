@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragrafo-cabecalho {
+    width: 40%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.secao-personagem {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lista-personagens {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.imagem-principal {
+    width: 45%;
+}
+
+.personagem {
+    border-radius: 100%;
+}
+
+.ativo {
+    border: 10px solid black;
+}
